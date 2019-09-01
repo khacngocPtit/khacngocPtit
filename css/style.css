@@ -160,14 +160,6 @@ time {
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media screen and (max-width: 1024px) {
-    .timeline ul li div {}
-    .timeline ul li:nth-child(even) div {
-        left: -289px;
-        /*250+45-6*/
-    }
-}
-
 @media screen and (max-width: 992px) {
     .timeline ul li {
         margin-left: 20px;
@@ -184,10 +176,6 @@ time {
 }
 
 @media screen and (max-width: 576px) {
-    body {
-        width: 126%;
-        ;
-    }
     .timeline ul li {
         margin-left: 20px;
     }
@@ -247,5 +235,10 @@ button {
         height: 100px;
         margin: 0 !important;
         border-radius: 50%;
+    }
+    header {
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 0;
     }
 }
