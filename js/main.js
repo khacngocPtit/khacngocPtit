@@ -36,10 +36,19 @@
 $('.my-friend').slick({
     centerMode: true,
     centerPadding: '20px',
-    slidesToShow: 4,
+    slidesToShow: 3,
     autoplay: true,
     autoplaySpeed: 2000,
     responsive: [{
+            breakpoint: 992,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '10px',
+                slidesToShow: 3
+            }
+        },
+        {
             breakpoint: 768,
             settings: {
                 arrows: false,
@@ -54,7 +63,7 @@ $('.my-friend').slick({
                 arrows: false,
                 centerMode: true,
                 centerPadding: '10px',
-                slidesToShow: 1
+                slidesToShow: 3
             }
         }
     ]
